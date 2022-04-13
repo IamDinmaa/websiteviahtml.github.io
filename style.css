@@ -1,0 +1,258 @@
+.index {
+  background-image: url(twintower2.jpeg);
+  background-size: cover;
+  background-position: center center;
+  height: 120vh;
+  background-repeat: no-repeat;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.general {
+  background: rgb(1, 4, 31);
+  animation: food;
+  animation-duration: 5s;
+  text-align: center;
+}
+.general ul li a {
+  text-transform: capitalize;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: #ffff;
+  animation: food;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 10;
+}
+.general ul {
+  list-style: none;
+  display: inline-flex;
+}
+.general ul li {
+  width: 75px;
+  margin: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+}
+.general ul li:hover {
+  background: rgb(1, 4, 31);
+
+  border-radius: 3px;
+}
+.submenu {
+  display: none;
+}
+.general ul li:hover .submenu {
+  display: block;
+  position: absolute;
+  background: rgb(1, 4, 31);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.general ul li:hover .submenu ul {
+  display: block;
+  margin: 10px;
+}
+.general ul li:hover .submenu ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #ffff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.general ul li:hover .submenu ul li:last-child {
+  border-bottom: none;
+}
+
+.general ul li:hover .submenu ul li a:hover {
+  transform: rotateZ(50deg);
+  color: cadetblue;
+}
+
+.welcome {
+  font-size: 50px;
+  position: relative;
+  top: 400px;
+  color: rgb(1, 4, 31);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.span {
+  margin: 10px;
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+/* .about {
+  margin: 0;
+} */
+
+.asia {
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.dine {
+  background-color: black;
+}
+
+.diningimage {
+  margin: 0px;
+}
+
+.dineone {
+  border: 3px solid rgb(1, 4, 31);
+}
+.dinetwo {
+  border: 3px solid rgb(1, 4, 31);
+}
+
+.dinethree {
+  border: 3px solid rgb(1, 4, 31);
+}
+
+.dinefour {
+  border: 3px solid rgb(1, 4, 31);
+}
+
+.dinefive {
+  border: 3px solid rgb(1, 4, 31);
+}
+
+.come {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 15px;
+}
+
+.hour {
+  color: white;
+}
+
+.time {
+  color: white;
+}
+
+.overall a {
+  text-decoration: none;
+  display: inline-flex;
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+  color: rgb(255, 215, 0);
+  background-color: rgb(1, 4, 31);
+  border-radius: 20px;
+  animation: food;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+}
+
+@keyframes food {
+  0% {
+    background: cornflowerblue;
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    background: gold;
+    transform: translate(10px, 10px);
+  }
+
+  100% {
+    background: rgb(1, 4, 31);
+    transform: translate(20px, 20px);
+  }
+}
+
+.break {
+  border: 3px solid gold;
+}
+
+.wing {
+  border: 3px solid gold;
+}
+.app {
+  border: 3px solid gold;
+}
+.course {
+  border: 3px solid gold;
+}
+
+.break ul li {
+  margin-left: 40px;
+}
+
+.wing ul li {
+  margin-left: 40px;
+}
+
+.app ul li {
+  margin-left: 40px;
+}
+.course ul li {
+  margin-left: 40px;
+}
+
+.foodie {
+  background: rgb(1, 4, 31);
+  color: #ffff;
+}
+
+.drink {
+  background-color: black;
+  color: white;
+}
+
+.mapu {
+  border: 3px solid rgb(255, 215, 0);
+}
+
+.torres {
+  border: 3px solid rgb(255, 215, 0);
+}
+.garnet {
+  border: 3px solid rgb(255, 215, 0);
+}
+.vine {
+  border: 3px solid rgb(255, 215, 0);
+}
+.usa {
+  border: 3px solid rgb(255, 215, 0);
+}
+.chille {
+  border: 3px solid rgb(255, 215, 0);
+}
+.play {
+  margin: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.connect {
+  color: white;
+  font-size: 18px;
+  background-color: rgb(1, 4, 31);
+  margin: 10px;
+}
+
+.fa {
+  text-decoration: none;
+  color: white;
+}
+
+.quick a {
+  text-decoration: none;
+  font-size: 18px;
+  background-color: rgb(1, 4, 31);
+}
